@@ -1,4 +1,5 @@
 /**
+<<<<<<< HEAD
  * System Monitoring Script - Production
  * Monitors application health and performance
  */
@@ -26,10 +27,12 @@ function checkSystemHealth() {
   console.log('✓ Disk space: Adequate');
   
   console.log('System Status: HEALTHY');
+
 }
 
 // Start monitoring
 console.log(`Monitoring every ${monitorConfig.interval}ms`);
+
 setInterval(checkSystemHealth, monitorConfig.interval);
 
 // Run first check immediately

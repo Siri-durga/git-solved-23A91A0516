@@ -1,10 +1,12 @@
 #!/bin/bash
+
 # Production Deployment Script
 # Version: 1.0.0
 
 set -e
 
 echo "====================================="
+
 echo "DevOps Simulator - Production Deploy"
 echo "====================================="
 
@@ -17,12 +19,14 @@ echo "Environment: $DEPLOY_ENV"
 echo "Region: $DEPLOY_REGION"
 echo "Port: $APP_PORT"
 
+
 # Pre-deployment checks
 echo "Running pre-deployment checks..."
 if [ ! -f "config/app-config.yaml" ]; then
     echo "Error: Configuration file not found!"
     exit 1
 fi
+
 
 # Deploy application
 echo "Starting deployment..."

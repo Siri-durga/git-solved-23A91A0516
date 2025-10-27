@@ -1,3 +1,4 @@
+
 # Production Application Configuration
 application:
   name: DevOpsSimulator
@@ -23,3 +24,4 @@ features:
   auto_scaling: true
   load_balancer: enabled
   backup_enabled: true
+
