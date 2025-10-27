@@ -19,3 +19,8 @@ All major changes and merges made during the Git Mastery Challenge are listed he
 ## [Tag v1.0]
 - Project successfully completed.
 - Added README summary and pushed all updates.
+
+
+## [Merge #2] main ← conflict-simulator
+- Resolved new conflicts from conflict-simulator branch.
+- Verified merged code and maintained functionality.
